@@ -8,15 +8,10 @@ export const DATA = {
   location: "Ethiopia, AA",
   locationLink: "https://maps.app.goo.gl/qPB9jERYpxkHwJKJ6",
   description:
-    "I am a full-stack developer, game designer, and AI enthusiast with
-    expertise in Django, Next.js, and Godot.",
+    "I am a full-stack developer, game designer, and AI enthusiast with expertise in Django, Next.js, and Godot.",
   summary:
-    "I build innovative platforms like
-    Hammerspacecraft Toolkit and Giyaa Market, blending technology with
-    education and digital services. Passionate about space science, fintech,
-    and gaming, I create scalable, user-friendly solutions with a strong focus
-    on UX/UI",
-  avatarUrl: "https://ibb.co/vx8Nm4pG",
+    "I build innovative platforms like Hammerspacecraft Toolkit and Giyaa Market, blending technology with education and digital services. Passionate about space science, fintech, and gaming, I create scalable, user-friendly solutions with a strong focus on UX/UI"
+  ,avatarUrl: "https://ibb.co/vx8Nm4pG",
   skills: [
     "React",
     "Next.js",
