@@ -10,28 +10,45 @@ export const DATA = {
   description:
     "I am a full-stack developer, game designer, and AI enthusiast with expertise in Django, Next.js, and Godot.",
   summary:
-    "I build innovative platforms like Hammerspacecraft Toolkit and Giyaa Market, blending technology with education and digital services. Passionate about space science, fintech, and gaming, I create scalable, user-friendly solutions with a strong focus on UX/UI and community impact.",
+    "I build innovative platforms like Hammerspacecraft Toolkit and Giyaa Market, blending technology with education, fintech, and creative digital services. Passionate about space science, gamified learning, and ethical tech, I design scalable, community-driven systems with a strong UX/UI focus.",
   avatarUrl: "https://ibb.co/vx8Nm4pG",
+
   skills: [
     "React",
     "Next.js",
-    "Typescript",
+    "TypeScript",
+    "JavaScript",
     "Node.js",
     "Python",
     "Django",
+    "Django REST Framework",
     "MongoDB",
     "PostgreSQL",
+    "Firebase",
     "Godot",
+    "GDScript",
     "Game Development",
     "TailwindCSS",
+    "Shadcn UI",
+    "Framer Motion",
+    "Figma",
     "UI/UX Design",
     "Photoshop",
     "Illustration",
+    "Git",
+    "GitHub",
+    "APIs",
+    "WebSockets",
+    "Authentication Systems",
+    "Ethical Hacking",
+    "Penetration Testing",
   ],
+
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
+
   contact: {
     email: "edomiyastesfaye321@gmail.com",
     tel: "+251944139443",
@@ -44,19 +61,19 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/edomiyas-tesfaye", // ← update if needed
+        url: "https://www.linkedin.com/in/edomiyas-tesfaye",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/EdomiyasTesfaye", // ← update if needed
+        url: "https://x.com/EdomiyasTesfaye",
         icon: Icons.x,
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/@EdomiyasTesfaye", // ← or Hammerspacecraft Toolkit's channel
+        url: "https://youtube.com/@EdomiyasTesfaye",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -84,7 +101,7 @@ export const DATA = {
     },
     {
       company: "Giyaa Market",
-      href: "#", // Add actual link
+      href: "#",
       badges: ["Co-founder"],
       location: "Addis Ababa",
       title: "Full-stack Developer",
@@ -96,7 +113,7 @@ export const DATA = {
     },
     {
       company: "Axsumet Game Studio",
-      href: "#", // Add actual link
+      href: "#",
       badges: ["Indie"],
       location: "Remote",
       title: "Game Designer & Developer",
@@ -112,7 +129,7 @@ export const DATA = {
     {
       school: "Buildspace",
       href: "https://buildspace.so",
-      degree: "Buildspace S3, S4, S5, and Nights Weekend Projects",
+      degree: "Buildspace S3, S4, S5, and Nights & Weekends",
       logoUrl: "/buildspace.jpg",
       start: "2023",
       end: "2024",
@@ -120,10 +137,39 @@ export const DATA = {
     {
       school: "Self-Taught",
       href: "https://github.com/EdomiyasTesfaye",
-      degree: "Full-Stack Development & Game Design",
+      degree: "Full-Stack Development, Game Design & Ethical Hacking",
       logoUrl: "/self.png",
       start: "2020",
       end: "Present",
+    },
+  ],
+
+  certifications: [
+    {
+      title: "Ethical Hacking & Cybersecurity Fundamentals",
+      issuer: "Cybrary / Self-Certified",
+      year: "2021",
+    },
+    {
+      title: "Full-Stack Web Development",
+      issuer: "FreeCodeCamp / Self-Taught",
+      year: "2022",
+    },
+    {
+      title: "Buildspace Web3 & AI Bootcamps",
+      issuer: "Buildspace",
+      year: "2023-2024",
+    },
+  ],
+
+  volunteer: [
+    {
+      organization: "Ethiopian Space Science Society (ESSS)",
+      role: "Volunteer Program Coordinator",
+      start: "2022",
+      end: "2023",
+      description:
+        "Organized and contributed to national outreach programs to promote space education among youth. Supported workshops and STEM camps for high school students.",
     },
   ],
 
@@ -142,13 +188,7 @@ export const DATA = {
         "TailwindCSS",
         "Framer Motion",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hammerspacecrafts.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video: "",
     },
@@ -182,6 +222,30 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "HammerOSX",
+      href: "#",
+      dates: "2024",
+      active: false,
+      description:
+        "Web-based Linux-inspired desktop simulation built with Next.js and Tailwind. Features multi-window layout, settings, and file viewer.",
+      technologies: ["Next.js", "TailwindCSS", "JavaScript"],
+      links: [],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Blood Bank System",
+      href: "#",
+      dates: "2024",
+      active: false,
+      description:
+        "Medical platform allowing doctors to manage donor data and users to search blood type profiles using unique IDs.",
+      technologies: ["Next.js", "MongoDB", "NextAuth", "TailwindCSS"],
+      links: [],
+      image: "",
+      video: "",
+    },
   ],
 
   hackathons: [
@@ -190,9 +254,8 @@ export const DATA = {
       dates: "2023",
       location: "Online",
       description:
-        "Participated in multiple project-building sprints including AI tools, social apps, and game design. Built full-stack apps under time pressure and collaborated with global teams.",
+        "Built and shipped real-world full-stack projects under tight deadlines. Focused on AI tools, creative web apps, and gamified learning features.",
       image: "",
-      mlh: "",
       links: [],
     },
   ],
