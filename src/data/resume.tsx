@@ -5,13 +5,13 @@ export const DATA = {
   name: "Edomiyas Zelleke",
   initials: "Hammer",
   url: "https://edomiyastesfaye.vercel.app/",
-  location: "Ethiopia, AA",
+  location: "Ethiopia, Addis Ababa",
   locationLink: "https://maps.app.goo.gl/qPB9jERYpxkHwJKJ6",
   description:
-    "I am a full-stack developer, game designer, and AI enthusiast with expertise in Django, Next.js, and Godot.",
+    "Full-stack developer, game designer, and AI innovator building educational, scientific, and fintech platforms.",
   summary:
-    "I build innovative platforms like Hammerspacecraft Toolkit and Giyaa Market, blending technology with education, fintech, and creative digital services. Passionate about space science, gamified learning, and ethical tech, I design scalable, community-driven systems with a strong UX/UI focus.",
-  avatarUrl: "https://ibb.co/vx8Nm4pG",
+    "I design and build high-impact projects like Hammerspacecraft Toolkit, Giyaa Market, and RavenFX LMS — merging technology, creativity, and education. Passionate about space science, gamified learning, and ethical AI, I craft scalable, user-centered systems powered by modern web technologies and strong design principles.",
+  avatarUrl: "https://i.postimg.cc/K8WNjFH4/image.png",
 
   skills: [
     "React",
@@ -25,14 +25,14 @@ export const DATA = {
     "MongoDB",
     "PostgreSQL",
     "Firebase",
-    "Godot",
-    "GDScript",
-    "Game Development",
     "TailwindCSS",
     "Shadcn UI",
     "Framer Motion",
-    "Figma",
+    "Godot",
+    "GDScript",
+    "Game Development",
     "UI/UX Design",
+    "Figma",
     "Photoshop",
     "Illustration",
     "Git",
@@ -72,7 +72,7 @@ export const DATA = {
         navbar: true,
       },
       Youtube: {
-        name: "Youtube",
+        name: "YouTube",
         url: "https://youtube.com/@EdomiyasTesfaye",
         icon: Icons.youtube,
         navbar: true,
@@ -97,7 +97,7 @@ export const DATA = {
       start: "2024",
       end: "Present",
       description:
-        "Created a free educational platform focused on space science for students, featuring an AI chatbot (Meudsa), blog center, video hub, and gamified learning system. Built using Django, Next.js, Tailwind, and MongoDB.",
+        "Founded and developed a free educational platform dedicated to space science and technology. Includes an AI chatbot (Meudsa), blog center, search engine, library, and gamified task system with a reward system. Built with Django, Next.js, MongoDB, and TailwindCSS.",
     },
     {
       company: "Giyaa Market",
@@ -109,7 +109,7 @@ export const DATA = {
       start: "2024",
       end: "Present",
       description:
-        "Developing an e-commerce platform connecting local Ethiopian sellers with buyers. Built with Next.js, Tailwind CSS, and Firebase. Implements search, product listing, and secure authentication.",
+        "Developing an e-commerce platform for Ethiopian markets that connects local sellers with buyers. Features search, product filtering, carting, wishlist, and secure authentication using Firebase and Next.js.",
     },
     {
       company: "Axsumet Game Studio",
@@ -121,7 +121,7 @@ export const DATA = {
       start: "2023",
       end: "Present",
       description:
-        "Lead designer and developer of games inspired by African mythology using Godot engine. Focuses on storytelling, gameplay mechanics, and pixel art design.",
+        "Leads design and development of narrative-driven games inspired by African mythology using Godot. Focuses on storytelling, level design, and pixel art for immersive gameplay experiences.",
     },
   ],
 
@@ -169,7 +169,7 @@ export const DATA = {
       start: "2022",
       end: "2023",
       description:
-        "Organized and contributed to national outreach programs to promote space education among youth. Supported workshops and STEM camps for high school students.",
+        "Organized national programs promoting space science and STEM among youth. Supported summer camps and high school workshops focusing on astronomy and rocketry.",
     },
   ],
 
@@ -180,7 +180,7 @@ export const DATA = {
       dates: "2024 - Present",
       active: true,
       description:
-        "AI-powered learning platform offering space science education, blog content, and gamified tasks. Features a search engine, admin panel, and reward system.",
+        "An AI-powered educational platform offering free space science resources, interactive blogs, an AI chatbot (Meudsa), and gamified learning tasks. Designed for students and space enthusiasts.",
       technologies: [
         "Next.js",
         "Django",
@@ -188,8 +188,8 @@ export const DATA = {
         "TailwindCSS",
         "Framer Motion",
       ],
-      links: [],
-      image: "",
+      links: [{ label: "Visit", url: "https://hammerspacecrafts.com" }],
+      image: "/projects/hammerspacecraft.png",
       video: "",
     },
     {
@@ -198,7 +198,7 @@ export const DATA = {
       dates: "2024 - Present",
       active: true,
       description:
-        "E-commerce platform for Ethiopian markets. Allows users to browse, search, and purchase locally listed products.",
+        "Ethiopian e-commerce marketplace empowering local vendors to reach buyers online. Features product listings, secure authentication, search, and smooth UI with Tailwind and Shadcn UI.",
       technologies: [
         "Next.js",
         "Firebase",
@@ -207,7 +207,19 @@ export const DATA = {
         "TypeScript",
       ],
       links: [],
-      image: "",
+      image: "/projects/giyaa.png",
+      video: "",
+    },
+    {
+      title: "RavenFX LMS",
+      href: "#",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "Advanced Learning Management System (LMS) for selling and managing online courses. Includes payment gateway integration, user dashboard, and progress tracking.",
+      technologies: ["Django", "Next.js", "PostgreSQL", "Stripe API"],
+      links: [],
+      image: "/projects/ravenfx.png",
       video: "",
     },
     {
@@ -216,10 +228,10 @@ export const DATA = {
       dates: "2025",
       active: false,
       description:
-        "Mobile learning app with Gmail login, interactive course sections, textbook library, and AI chatbot integration.",
+        "Mobile app offering a library, Gmail login, AI chat assistant, and personalized learning. Built with Flutter and Firebase for cross-platform access.",
       technologies: ["Flutter", "Firebase", "Dart"],
       links: [],
-      image: "",
+      image: "/projects/textmaster.png",
       video: "",
     },
     {
@@ -228,22 +240,82 @@ export const DATA = {
       dates: "2024",
       active: false,
       description:
-        "Web-based Linux-inspired desktop simulation built with Next.js and Tailwind. Features multi-window layout, settings, and file viewer.",
+        "Web-based operating system inspired by Linux desktop environments. Features multi-window UI, settings manager, file viewer, and system simulation.",
       technologies: ["Next.js", "TailwindCSS", "JavaScript"],
       links: [],
-      image: "",
+      image: "/projects/hammerosx.png",
       video: "",
     },
     {
-      title: "Blood Bank System",
+      title: "Blood Bank Management System",
       href: "#",
       dates: "2024",
       active: false,
       description:
-        "Medical platform allowing doctors to manage donor data and users to search blood type profiles using unique IDs.",
+        "Web platform for doctors to manage donor and recipient data. Users can search profiles using unique IDs. Includes authentication and role-based access control.",
       technologies: ["Next.js", "MongoDB", "NextAuth", "TailwindCSS"],
       links: [],
-      image: "",
+      image: "/projects/bloodbank.png",
+      video: "",
+    },
+    {
+      title: "Digital Election System for Ethiopia",
+      href: "#",
+      dates: "2024",
+      active: false,
+      description:
+        "Secure and transparent digital election management system for Ethiopia. Includes candidate verification, digital ID integration, and blockchain-backed vote validation.",
+      technologies: ["Django", "Next.js", "PostgreSQL", "Web3.js"],
+      links: [],
+      image: "/projects/election.png",
+      video: "",
+    },
+    {
+      title: "Hammerspacecraft Rocket Project",
+      href: "#",
+      dates: "2024 - 2025",
+      active: true,
+      description:
+        "Level 1 high-powered rocket built under the Hammerspacecraft initiative. Aims to reach 935 meters altitude using a custom motor and dual-stage booster configuration.",
+      technologies: ["OpenRocket", "Cesaroni Motors", "Arduino", "Python"],
+      links: [],
+      image: "/projects/rocket.png",
+      video: "",
+    },
+    {
+      title: "Meudsa AI Chat System",
+      href: "#",
+      dates: "2024",
+      active: true,
+      description:
+        "AI chatbot designed for science education, integrated with Hammerspacecraft Toolkit. Trained to provide intelligent, engaging responses across astronomy, physics, and rocketry.",
+      technologies: ["Next.js", "OpenAI API", "Django REST Framework"],
+      links: [],
+      image: "/projects/meudsa.png",
+      video: "",
+    },
+    {
+      title: "Space News & Blog Center",
+      href: "#",
+      dates: "2024",
+      active: true,
+      description:
+        "Curated news hub aggregating content from NASA, ESA, and SpaceX with newsletter subscriptions and a community blogging section.",
+      technologies: ["Next.js", "RSS API", "TailwindCSS", "MongoDB"],
+      links: [],
+      image: "/projects/spacenews.png",
+      video: "",
+    },
+    {
+      title: "Axsumet Game Studio Projects",
+      href: "#",
+      dates: "2023 - Present",
+      active: true,
+      description:
+        "Collection of indie games inspired by African history and mythology. Built with Godot engine and features pixel art, storytelling, and tactical gameplay.",
+      technologies: ["Godot", "GDScript", "Aseprite", "Figma"],
+      links: [],
+      image: "/projects/axsumet.png",
       video: "",
     },
   ],
@@ -254,8 +326,8 @@ export const DATA = {
       dates: "2023",
       location: "Online",
       description:
-        "Built and shipped real-world full-stack projects under tight deadlines. Focused on AI tools, creative web apps, and gamified learning features.",
-      image: "",
+        "Built and launched real-world AI and full-stack projects with a global community. Focused on creative web applications, gamified learning, and real-world AI tools.",
+      image: "/projects/buildspace.png",
       links: [],
     },
   ],
