@@ -112,7 +112,7 @@ export const DATA = {
         "Developing an e-commerce platform for Ethiopian markets that connects local sellers with buyers. Features search, product filtering, carting, wishlist, and secure authentication using Firebase and Next.js.",
     },
     {
-      company: "Axsumet Game Studio",
+      company: "Axumet Game Studio",
       href: "#",
       badges: ["Indie"],
       location: "Remote",
