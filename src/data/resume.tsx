@@ -188,7 +188,7 @@ export const DATA = {
         "TailwindCSS",
         "Framer Motion",
       ],
-      links: [{ label: "Visit", url: "https://hammerspacecrafts.com" }],
+      links: [{ icon: null, type: "Visit", href: "https://hammerspacecrafts.com" }],
       image: "/projects/hammerspacecraft.png",
       video: "",
     },

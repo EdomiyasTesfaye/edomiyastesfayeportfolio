@@ -103,7 +103,7 @@ export function ProjectCard({
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
-                  {link.icon}
+                  {link.icon && <span className="w-4 h-4 flex items-center justify-center">{link.icon}</span>}
                   {link.type}
                 </Badge>
               </Link>
